@@ -1,4 +1,4 @@
-import Dropdown from 'react-bootstrap/Dropdown';
+
 
 import { Link } from "react-router-dom";
 
@@ -7,7 +7,7 @@ const HeaderComponent = () =>{
 
     return(
         <header class="menu text">
-            <nav class="head">
+            <nav class="head" >
                 <div class="logo">
                     <Link to="/"><img src={require("../assets/rescatando.png")} alt="logo"/></Link>
                 </div>
@@ -40,7 +40,7 @@ const HeaderComponent = () =>{
                         <li><Link to='/agradecimientos'>AGRADECIMIENTOS ESPECIALES</Link></li>
                         <li><Link to='/dona'>DONA</Link></li>
                         {/* <li><Link href="./tienda.html">COMPRA FOTOS</Link></li>     */}
-                    </div>
+                    </div>{/*
                     <Dropdown>
                         <Dropdown.Toggle id="dropdown-basic" style={{color: "white", backgroundColor: "#083d5e", border: "none", fontSize: "24px", height:"36px", paddingTop:"0"}}>
                             <Link><i className="bi bi-list"></i></Link>
@@ -54,9 +54,9 @@ const HeaderComponent = () =>{
                         <li><Link to='/te-necesitamos'>TE NECESITAMOS</Link></li>
                         <li><Link to='/agradecimientos'>AGRADECIMIENTOS ESPECIALES</Link></li>
                         <li><Link to='/dona'>DONA</Link></li>
-                        {/* <li><Link href="./tienda.html">COMPRA FOTOS</Link></li>     */}
-                        </Dropdown.Menu>
-                    </Dropdown>
+                        {/* <li><Link href="./tienda.html">COMPRA FOTOS</Link></li>     
+                        </Dropdown.Menu> 
+                    </Dropdown> */}
                 </div>
             </nav>
         </header>

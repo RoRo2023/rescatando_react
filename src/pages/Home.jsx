@@ -51,7 +51,7 @@ function Home(){
                     <span class="sr-only">Next</span>
                     </a>
                 </div> */}
-            <Carousel>
+            <Carousel style={{marginTop:"82px"}} className="jumbotronS">
                 <Carousel.Item >
                     <img class="d-block w-100" src={require("../assets/slider01.jpg")} alt="First slide"/>
                     <Carousel.Caption className="carousel-box slide">
