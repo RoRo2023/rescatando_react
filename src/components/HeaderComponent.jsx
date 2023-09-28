@@ -26,6 +26,7 @@ const HeaderComponent = () =>{
                             </div>
                         </li>
                         <li><Link to='/dona'>DONA</Link></li>
+                        <li><Link to='/galeria'>GALLERIA</Link></li>
                         {/* <li><Link href="./tienda.html">COMPRA FOTOS</Link></li>     */}
                     </ul>
                 </div>
@@ -39,6 +40,7 @@ const HeaderComponent = () =>{
                         <li><Link to='/te-necesitamos'>TE NECESITAMOS</Link></li>
                         <li><Link to='/agradecimientos'>AGRADECIMIENTOS ESPECIALES</Link></li>
                         <li><Link to='/dona'>DONA</Link></li>
+                        <li><Link to='/galeria'>GALLERIA</Link></li>
                         {/* <li><Link href="./tienda.html">COMPRA FOTOS</Link></li>     */}
                     </div>{/*
                     <Dropdown>
@@ -54,6 +56,7 @@ const HeaderComponent = () =>{
                         <li><Link to='/te-necesitamos'>TE NECESITAMOS</Link></li>
                         <li><Link to='/agradecimientos'>AGRADECIMIENTOS ESPECIALES</Link></li>
                         <li><Link to='/dona'>DONA</Link></li>
+                        <li><Link to='/galeria'>GALLERIA</Link></li>
                         {/* <li><Link href="./tienda.html">COMPRA FOTOS</Link></li>     
                         </Dropdown.Menu> 
                     </Dropdown> */}

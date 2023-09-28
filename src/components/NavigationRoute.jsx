@@ -7,6 +7,7 @@ import LasImagenes from '../pages/LasImagenes';
 import ProcesoTecnico from '../pages/ProcesoTecnico';
 import QuienesSomos from '../pages/QuienesSomos';
 import TeNecesitamos from '../pages/TeNecesitamos';
+import Galeria from '../pages/Galeria';
 
 function NavigationRoute() {
 
@@ -21,6 +22,7 @@ function NavigationRoute() {
             <Route path='/proceso-tecnico' element={<ProcesoTecnico/>}/>
             <Route path='/quienes-somos' element={<QuienesSomos/>}/>
             <Route path='/te-necesitamos' element={<TeNecesitamos/>}/>
+            <Route path='/galeria' element={<Galeria/>} />
         </Routes>
     )
 }
