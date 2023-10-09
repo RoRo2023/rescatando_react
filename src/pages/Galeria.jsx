@@ -7,7 +7,7 @@ function Galeria(){
     return(
         <>
             <HeaderComponent/>
-            <div style={{marginTop: '75px', marginBottom: '20px'}}>
+            <div style={{marginTop: '82px', marginBottom: '20px'}}>
                 <Gallery/>
             </div>
             <FooterComponent/>

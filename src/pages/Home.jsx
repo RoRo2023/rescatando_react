@@ -53,21 +53,21 @@ function Home(){
                     </a>
                 </div> */}
             <Carousel style={{marginTop:"82px"}} className="jumbotronS">
-                <Carousel.Item style={{height:"66vh"}}>
+                <Carousel.Item> {/*style={{height:"66vh"}}*/}
                     <img class="d-block w-100" src={require("../assets/slider01.jpg")} alt="First slide"/>
                     <Carousel.Caption className="carousel-box slide">
                         <h1>RESCATE DE FOTOS CON CAUSA SOCIAL</h1>
                         <p>Trabajamos en el rescate de material fotográfico antiguo, de valor artístico, cultural e histórico.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item style={{height:"66vh"}}>
+                <Carousel.Item>
                     <img class="d-block w-100" src={require("../assets/slider02.jpg")} alt="Second slide"/>
                     <Carousel.Caption className="carousel-box slide">
                         <h1>NECESITAMOS TU APOYO</h1>
                         <p>Ayúdanos a financiar este proyecto. Compra imágenes del archivo rescatado, aporta para la capacitación e inclusión de una persona al mundo laboral, o haz un donativo.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item style={{height:"66vh"}}>
+                <Carousel.Item>
                     <img class="d-block w-100" src={require("../assets/inclusivo.jpg")} alt="Third slide"/>
                     <Carousel.Caption className="carousel-box slide">
                         <h1>CONSTRUYAMOS UN MUNDO INCLUSIVO</h1>
