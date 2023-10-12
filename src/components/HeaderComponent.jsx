@@ -15,7 +15,7 @@ const HeaderComponent = () =>{
                     <ul>
                         <li><Link to='/acerca-de'>ACERCA DE</Link></li>
                         <li><Link to='/quienes-somos'>QUIÉNES SOMOS</Link></li>
-                        <li><Link to='/las-imagenes'>LAS IMÁGENES</Link></li>
+                        {/*<li><Link to='/las-imagenes'>LAS IMÁGENES</Link></li>        */}
                         <li><Link to='/proceso-tecnico'>PROCESO TÉCNICO</Link></li>
                         <li class="te-necesitamos">
                             <Link to='/te-necesitamos'>TE NECESITAMOS</Link>
@@ -35,7 +35,7 @@ const HeaderComponent = () =>{
                     <div class="menu-anidado text">
                         <li><Link to='/acerca-de'>ACERCA DE</Link></li>
                         <li><Link to='/quienes-somos'>QUIÉNES SOMOS</Link></li>
-                        <li><Link to='/las-imagenes'>LAS IMÁGENES</Link></li>
+                        {/*<li><Link to='/las-imagenes'>LAS IMÁGENES</Link></li>        */}
                         <li><Link to='/proceso-tecnico'>PROCESO TÉCNICO</Link></li>
                         <li><Link to='/te-necesitamos'>TE NECESITAMOS</Link></li>
                         <li><Link to='/agradecimientos'>AGRADECIMIENTOS ESPECIALES</Link></li>

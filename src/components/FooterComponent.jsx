@@ -21,7 +21,8 @@ function FooterComponent(){
                   <dd><Link to="./">INICIO</Link></dd>
                   <dd><Link to="./acerca-de">ACERCA DE</Link></dd>
                   <dd><Link to="./quienes-somos">QUIÉNES SOMOS</Link></dd>
-                  <dd><Link to="./las-imagenes">LAS IMÁGENES</Link></dd>
+                  <dd><Link to="./galeria">GALERÍA</Link></dd>
+                  {/*<dd><Link to="./las-imagenes">LAS IMÁGENES</Link></dd>*/}
                   <dd><Link to="./proceso-tecnico">PROCESO TÉCNICO</Link></dd>
                   <dd><Link to="./te-necesitamos">TE NECESITAMOS</Link></dd>
                   <dd><Link to="./agradecimientos">AGRADECIMIENTOS ESPECIALES</Link></dd>

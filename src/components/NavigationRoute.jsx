@@ -18,7 +18,7 @@ function NavigationRoute() {
             <Route path='/acerca-de' element={<AcercaDe/>} />
             <Route path='/agradecimientos' element={<Agradecimientos/>} />
             <Route path='/dona' element={<Dona/>}/>
-            <Route path='/las-imagenes' element={<LasImagenes/>}/>
+            {/*<Route path='/las-imagenes' element={<LasImagenes/>}/>*/}
             <Route path='/proceso-tecnico' element={<ProcesoTecnico/>}/>
             <Route path='/quienes-somos' element={<QuienesSomos/>}/>
             <Route path='/te-necesitamos' element={<TeNecesitamos/>}/>

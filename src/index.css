@@ -223,6 +223,8 @@ a{
     box-shadow: 0 0px 30px rgb(0 0 0 / 80%);
 
     height: 66vh;
+
+    margin-top: 82px;
 }
 
 .carousel-box{
@@ -293,9 +295,22 @@ h1{
     font-size: 42px;
 }
 
+.icon2{
+    font-size: 42px;
+    margin: 0 10px 0 0;
+
+    display: none;
+}
 
 .box h2{
     font-size: 22px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    align-items: baseline;
 }
 
 h2:after{
@@ -333,6 +348,11 @@ h2:after{
 .box:hover>a{
     opacity: 1;
     cursor: pointer;
+}
+/*Las imágenes*/
+
+.las-imagenes{
+    padding-bottom: 50px;
 }
 
 /*Articulos*/
@@ -660,9 +680,24 @@ h6:after{
 @media screen and (max-width: 1200px) {
     .container{
         margin: auto;
-        padding: auto;
+        padding: 0;
         max-width: 100%;
     }
+
+    .add1, .add2, .add3, .title{
+        padding: 0 10px;
+    }
+
+    h2:after{
+        left: 10px;
+    }
+
+    .las-imagenes>p, .las-imagenes>ul, .las-imagenes>h4, .las-imagenes>img, .las-imagenes>div{
+        padding: 0 10px;
+    }
+
+
+
 }
 @media screen and (max-width: 1150px) {
     .menu1{
@@ -673,7 +708,7 @@ h6:after{
     }
     .container{
         margin: 0;
-        padding: 0;
+
         max-width: 100%;
     }
     .carousel-box{
@@ -688,6 +723,14 @@ h6:after{
 
         padding-left: 20vw;
         padding-right: 20vw;
+    }
+
+    .jumbotronS{
+        margin-top: 75px;
+    }
+
+    .las-imagenes{
+        padding-bottom: 50px;
     }
 }
 
@@ -704,8 +747,25 @@ h6:after{
         border-bottom: #4498E7 solid 2px;
         margin: 10px 0;
         
+        padding: 0px 40px;
+    }
+
+    .icon{
+        display: none;
     }
     
+    .icon2{
+        display: block;
+    }
+
+    .add1{
+        overflow: unset;
+    }
+
+    .las-imagenes{
+        margin-bottom: 10vw;
+    }
+
     .add2{
         flex-direction: column-reverse;
     }
@@ -740,6 +800,22 @@ h6:after{
         padding-left: 20px;
     }
 }
+@media screen and (max-width: 500px){
+    .logo img{
+        height: 15vw;
+    }
+    .menu2 i{
+        font-size: 10vw;
+    }
+
+    .jumbotronS{
+        margin-top: 15vw;
+    }
+
+    .menu-anidado{
+        top: 60px;
+    }
+}
 
 @media screen and (max-width: 400px) {
     .carousel-caption p{
@@ -750,3 +826,4 @@ h6:after{
         font-size: 5vw;
     }
 }
+
