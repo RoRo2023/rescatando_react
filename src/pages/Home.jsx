@@ -76,6 +76,29 @@ function Home(){
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <Carousel className="jumbotronS_2">
+                <Carousel.Item> {/*style={{height:"66vh"}}*/}
+                    <img className="d-block w-100" src={require("../assets/slider01_2.jpg")} alt="First slide"/>
+                    <Carousel.Caption className="carousel-box slide">
+                        <h1>RESCATE DE FOTOS CON CAUSA SOCIAL</h1>
+                        <p>Trabajamos en el rescate de material fotográfico antiguo, de valor artístico, cultural e histórico.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="d-block w-100" src={require("../assets/slider02_2.jpg")} alt="Second slide"/>
+                    <Carousel.Caption className="carousel-box slide">
+                        <h1>NECESITAMOS TU APOYO</h1>
+                        <p>Ayúdanos a financiar este proyecto. Compra imágenes del archivo rescatado, aporta para la capacitación e inclusión de una persona al mundo laboral, o haz un donativo.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="d-block w-100" src={require("../assets/inclusivo_1.jpg")} alt="Third slide"/>
+                    <Carousel.Caption className="carousel-box slide">
+                        <h1>CONSTRUYAMOS UN MUNDO INCLUSIVO</h1>
+                        <p>Únete de manera activa en una causa social que nos incluya a todos. Abraza las diferencias para abonar por una sociedad más humana.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
             <section className="container boxes">
                 <div className="box">
                     <p className="icon"><i className="bi bi-person-fill"></i></p> 

@@ -227,6 +227,11 @@ a{
     margin-top: 82px;
 }
 
+.jumbotronS_2{
+    display: none;
+}
+
+
 .carousel-box{
     color: white;
     border-left: 3px solid #4498E7;
@@ -734,6 +739,39 @@ h6:after{
     }
 }
 
+@media screen and (max-width: 900px) {
+    .jumbotronS_2{
+        display: block;
+
+        padding: 0;
+        position: relative;
+        box-shadow: 0 0px 30px rgb(0 0 0 / 80%);
+
+        height: 54vh;
+
+        margin-top: 75px;
+    }
+
+    .jumbotronS{
+        display: none;
+    }
+
+    .carousel{
+        height: 54vw!important;
+    }
+
+    .carousel-inner{
+        height: 54vw;
+    }
+
+    .carousel-box{
+        height: calc(70vw + 1px);
+
+        margin-top: 27vw;
+    }
+    
+}
+
 @media screen and (max-width: 770px) {
     img{
         max-width: 100%;
@@ -789,11 +827,11 @@ h6:after{
     }
 
     .carousel-caption p{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .carousel-caption h1{
-        font-size: 6vw;
+        font-size: 6.5vw;
     }
     .carousel-box{
         padding-right: 20px;
@@ -808,7 +846,10 @@ h6:after{
         font-size: 10vw;
     }
 
-    .jumbotronS{
+   /* .jumbotronS{
+        margin-top: 15vw;
+    } */
+    .jumbotronS_2{
         margin-top: 15vw;
     }
 
@@ -819,11 +860,15 @@ h6:after{
 
 @media screen and (max-width: 400px) {
     .carousel-caption p{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .carousel-caption h1{
-        font-size: 5vw;
+        font-size: 5.5vw;
+    }
+
+    .menu-anidado{
+        top: 15vw;
     }
 }
 
