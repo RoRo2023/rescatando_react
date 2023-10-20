@@ -113,7 +113,7 @@ function Home(){
                     <Link to="/quienes-somos" className="readmore"><i className="bi bi-plus-square"></i></Link>
                 </div>
                 <div className="box new">
-                    <p className="icon"><i className="bi bi-gift-fill"></i></p>
+                    <p className="icon"><i className="bi bi-images"></i>{/*<i class="bi bi-gift-fill"></i>LAS IMÁGENES*/}</p>
                     <h2 className="title"><p className="icon2"><i className="bi bi-images"></i>{/*<i class="bi bi-gift-fill"></i>LAS IMÁGENES*/}</p>GALERÍA</h2>
                     <p className="box-text">El archivo fotográfico fue puesto a nuestra disposición por México Desconocido con el fin de facilitar el resca...</p>
                     <Link to="/las-imagenes" className="readmore"><i className="bi bi-plus-square"></i></Link>
